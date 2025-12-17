@@ -14,15 +14,18 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  // Trailing slash configuration for GitHub Pages
+  trailingSlash: false,
+
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://karakorum-traders.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/my-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
+  organizationName: 'karakorum-traders', // Usually your GitHub org/user name.
   projectName: 'my-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -88,7 +91,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/your-username/my-book',
+          href: 'https://github.com/karakorum-traders/my-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/my-book',
+              href: 'https://github.com/karakorum-traders/my-book',
             },
           ],
         },
