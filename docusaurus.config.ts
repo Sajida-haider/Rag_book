@@ -18,7 +18,7 @@ const config: Config = {
   trailingSlash: false,
 
   // Set the production url of your site here
-   url: 'https://sajida-haider.vercel.app',
+   url: 'https://sajida-haider.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
    baseUrl: '/',
@@ -44,6 +44,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // Enable collapsible categories in sidebar
+          sidebarCollapsible: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -76,6 +78,16 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    // Enable breadcrumbs
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true, // Collapsible sidebar
+      },
     },
     navbar: {
       title: 'Physical AI & Robotics',
@@ -126,6 +138,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['python', 'bash', 'json'],
     },
+    // Performance optimizations
+    scripts: [
+      // Add any performance optimization scripts if needed
+    ],
+    stylesheets: [
+      // Optimize loading of fonts
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap',
+        rel: 'stylesheet',
+      },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 

@@ -1,30 +1,159 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Custom CSS for Docusaurus UI Enhancement
+ * Physical AI & Humanoid Robotics Documentation
  */
 
-/* You can override the default Infima variables here. */
+/* Define CSS custom properties for the specified color palette */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0EA5E9;          /* Steel Blue */
+  --ifm-color-primary-dark: #0284C7;     /* Darker Steel Blue */
+  --ifm-color-primary-darker: #0369A1;   /* Even Darker Steel Blue */
+  --ifm-color-primary-darkest: #075985;  /* Darkest Steel Blue */
+  --ifm-color-primary-light: #38BDF8;    /* Light Steel Blue */
+  --ifm-color-primary-lighter: #7DD3FC;  /* Lighter Steel Blue */
+  --ifm-color-primary-lightest: #BAE6FD; /* Lightest Steel Blue */
+
+  --ifm-background-color: #F8FAFC;       /* Off-white background */
+  --ifm-font-color-base: #334155;        /* Slate text color */
+  --ifm-color-secondary-light: #000000;   /* Black accent for light backgrounds */
+  --ifm-color-secondary-dark: #FFFFFF;    /* White accent for dark backgrounds */
+
+  --ifm-font-family-base: "Inter", "Roboto", system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* Apply background and text colors */
+body {
+  background-color: #F8FAFC;
+  color: #334155;
+  font-family: var(--ifm-font-family-base);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Add appropriate spacing */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown p {
+  margin-bottom: 1rem;
+}
+
+/* Sidebar customization */
+.sidebar {
+  background-color: #dbeafe; /* Soft blue background */
+}
+
+.sidebar .menu__list .menu__link--active {
+  background-color: #0EA5E9; /* Steel blue highlight */
+  color: white;
+  border-radius: 4px;
+}
+
+.sidebar .menu__list .menu__link:hover {
+  background-color: #bae6fd; /* Light steel blue on hover */
+  border-radius: 4px;
+  color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
+}
+
+.sidebar .menu__list .menu__link {
+  border-radius: 4px;
+}
+
+/* Apply accent color to highlights and icons */
+.admonition {
+  border-left-color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
+}
+
+.admonition-icon {
+  color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
+}
+
+/* For dark mode, use white accent */
+[data-theme='dark'] .admonition {
+  border-left-color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds in dark mode */
+}
+
+[data-theme='dark'] .admonition-icon {
+  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds in dark mode */
+}
+
+/* Dark mode navigation accents */
+[data-theme='dark'] .sidebar .menu__list .menu__link:hover {
+  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
+}
+
+[data-theme='dark'] .navbar__item:hover {
+  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
+}
+
+[data-theme='dark'] .table-of-contents__link:hover {
+  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
+}
+
+/* Ensure accessible contrast for all text elements */
+.admonition-title {
+  color: #334155; /* Ensure good contrast against light backgrounds */
+}
+
+.table-of-contents__link {
+  color: #334155; /* Ensure good contrast */
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-secondary-light); /* Black accent on hover */
+}
+
+/* Set appropriate spacing between sections */
+.content {
+  margin: 1.5rem 0;
+}
+
+.section {
+  margin: 2rem 0;
+}
+
+.docContent {
+  padding: 1.5rem 0;
+}
+
+/* Spacing for sidebar items */
+.menu__list .menu__list-item {
+  margin-bottom: 0.25rem;
+}
+
+/* Spacing for navigation elements */
+.navbar__item {
+  margin: 0 0.5rem;
+}
+
+.navbar__item:hover {
+  color: var(--ifm-color-secondary-light); /* Black accent on hover */
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #38BDF8;
+  --ifm-color-primary-dark: #0EA5E9;
+  --ifm-color-primary-darker: #0284C7;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #7DD3FC;
+  --ifm-color-primary-lighter: #BAE6FD;
+  --ifm-color-primary-lightest: #dbeafe;
+  --ifm-color-secondary-light: #000000;   /* Black accent for light backgrounds */
+  --ifm-color-secondary-dark: #FFFFFF;    /* White accent for dark backgrounds */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Dark mode specific adjustments */
+  --ifm-background-color: #0f172a;       /* Dark background */
+  --ifm-font-color-base: #e2e8f0;        /* Light text color */
 }

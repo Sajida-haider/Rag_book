@@ -1,6 +1,6 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * CSS module for the homepage
+ * Physical AI & Humanoid Robotics Documentation
  */
 
 .heroBanner {
@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+  color: white;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +22,71 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.features {
+  padding: 4rem 0;
+}
+
+.featureBox {
+  padding: 1rem;
+}
+
+.moduleBox {
+  display: block;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.1); /* Slightly thicker border */
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #334155; /* Slate text color */
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.moduleBox:hover {
+  background: #f1f5f9;
+  border-color: #0EA5E9; /* Steel blue hover state */
+  box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.15);
+  transform: translateY(-2px);
+  color: #0EA5E9; /* Steel blue text on hover */
+}
+
+[data-theme='dark'] .moduleBox {
+  background: #1e293b;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0; /* Light text for dark mode */
+}
+
+[data-theme='dark'] .moduleBox:hover {
+  background: #334155;
+  border-color: #38BDF8; /* Light steel blue in dark mode */
+  color: #38BDF8; /* Light steel blue text on hover in dark mode */
+}
+
+/* Responsive adjustments for boxes */
+@media (max-width: 996px) {
+  .featureBox {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .featureBox {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
