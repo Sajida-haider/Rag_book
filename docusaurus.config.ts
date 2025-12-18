@@ -18,15 +18,24 @@ const config: Config = {
   trailingSlash: false,
 
   // Set the production url of your site here
+<<<<<<< HEAD
   url: 'https://karakorum-traders.github.io',
+=======
+   url: 'https://sajida-haider.vercel.app',
+>>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-book/',
+   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+<<<<<<< HEAD
   organizationName: 'karakorum-traders', // Usually your GitHub org/user name.
   projectName: 'my-book', // Usually your repo name.
+=======
+  organizationName: 'Sajida-haider', // Usually your GitHub org/user name.
+  projectName: 'My-book', // Usually your repo name.
+>>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
 
   onBrokenLinks: 'throw',
 
@@ -91,7 +100,11 @@ const config: Config = {
           label: 'Book',
         },
         {
+<<<<<<< HEAD
           href: 'https://github.com/karakorum-traders/my-book',
+=======
+          href: 'https://github.com/Sajida-haider/My-book',
+>>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
           label: 'GitHub',
           position: 'right',
         },
@@ -114,7 +127,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
+<<<<<<< HEAD
               href: 'https://github.com/karakorum-traders/my-book',
+=======
+              href: 'https://github.com/Sajida-haider/My-book',
+>>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
             },
           ],
         },
