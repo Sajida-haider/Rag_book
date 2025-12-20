@@ -27,7 +27,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Sajida-haider', // Usually your GitHub org/user name.
-  projectName: 'My-book', // Usually your repo name.
+  projectName: 'Rag_book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -104,7 +104,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/Sajida-haider/My-book',
+          href: 'https://github.com/Sajida-haider/Rag_book',
           label: 'GitHub',
           position: 'right',
         },
@@ -120,14 +120,51 @@ const config: Config = {
               label: 'Module 1: ROS 2',
               to: '/docs/module-1/chapter-1-ros2-fundamentals',
             },
+            {
+              label: 'Module 2: Gazebo & Unity',
+              to: '/docs/module-2/chapter-2-gazebo-unity',
+            },
+            {
+              label: 'Module 3: NVIDIA Isaac',
+              to: '/docs/module-3/chapter-3-nvidia-isaac',
+            },
+            {
+              label: 'Module 4: VLA Systems',
+              to: '/docs/module-4/chapter-4-vla-systems',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/Sajida-haider/Rag_book',
+            },
+            {
+              label: 'Discussions',
+              href: 'https://github.com/Sajida-haider/Rag_book/discussions',
+            },
+            {
+              label: 'Issues',
+              href: 'https://github.com/Sajida-haider/Rag_book/issues',
+            },
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/Sajida-haider/My-book',
+              label: 'Physical AI & Robotics',
+              to: '/',
+            },
+            {
+              label: 'Resources',
+              to: '/docs/resources',
+            },
+            {
+              label: 'Contact',
+              to: '/contact',
             },
           ],
         },
