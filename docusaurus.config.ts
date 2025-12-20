@@ -120,18 +120,6 @@ const config: Config = {
               label: 'Module 1: ROS 2',
               to: '/docs/module-1/chapter-1-ros2-fundamentals',
             },
-            {
-              label: 'Module 2: Gazebo & Unity',
-              to: '/docs/module-2/chapter-2-gazebo-unity',
-            },
-            {
-              label: 'Module 3: NVIDIA Isaac',
-              to: '/docs/module-3/chapter-3-nvidia-isaac',
-            },
-            {
-              label: 'Module 4: VLA Systems',
-              to: '/docs/module-4/chapter-4-vla-systems',
-            },
           ],
         },
         {
@@ -157,14 +145,6 @@ const config: Config = {
             {
               label: 'Physical AI & Robotics',
               to: '/',
-            },
-            {
-              label: 'Resources',
-              to: '/docs/resources',
-            },
-            {
-              label: 'Contact',
-              to: '/contact',
             },
           ],
         },
