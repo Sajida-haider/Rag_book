@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Website
-
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-=======
 # Physical AI & Humanoid Robotics Documentation
 
 This repository contains the documentation for "Physical AI & Humanoid Robotics", a comprehensive guide covering the intersection of artificial intelligence and robotics, focusing on how AI systems can function in the physical world.
@@ -30,58 +25,25 @@ This documentation site covers:
 ## Target Audience
 
 This book is designed for AI and Computer Science students with basic Python knowledge who are new to robotics. You'll learn how to bridge the gap between digital AI and physical robots, with a focus on humanoid robotics systems.
->>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
 
 ## Installation
 
 ```bash
-<<<<<<< HEAD
-yarn
-=======
 npm install
 # or
 yarn install
->>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
 ```
 
 ## Local Development
 
 ```bash
-<<<<<<< HEAD
-=======
 npm start
 # or
->>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
 yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-<<<<<<< HEAD
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-=======
 ## Building the Documentation
 
 ```bash
@@ -109,4 +71,3 @@ This documentation is licensed under the Creative Commons Attribution-NonCommerc
 ## Support
 
 For questions or support regarding this documentation, please open an issue in the repository.
->>>>>>> f636da0671cd597024c1733e4e23db4861fc29d3
