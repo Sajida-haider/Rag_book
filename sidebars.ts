@@ -59,6 +59,15 @@ const sidebars: SidebarsConfig = {
       ],
       collapsed: false, // Keep this module expanded by default for clear hierarchy
     },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/docusaurus-global-components',
+        'guides/floating-widget-implementation',
+      ],
+      collapsed: true,
+    },
   ],
 };
 

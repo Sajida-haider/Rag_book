@@ -15,8 +15,7 @@
 
   --ifm-background-color: #F8FAFC;       /* Off-white background */
   --ifm-font-color-base: #334155;        /* Slate text color */
-  --ifm-color-secondary-light: #000000;   /* Black accent for light backgrounds */
-  --ifm-color-secondary-dark: #FFFFFF;    /* White accent for dark backgrounds */
+  --ifm-color-secondary: #F97316;        /* Soft Orange accent */
 
   --ifm-font-family-base: "Inter", "Roboto", system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 95%;
@@ -62,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar .menu__list .menu__link:hover {
   background-color: #bae6fd; /* Light steel blue on hover */
   border-radius: 4px;
-  color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
+  color: #F97316; /* Soft orange accent on hover */
 }
 
 .sidebar .menu__list .menu__link {
@@ -71,33 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Apply accent color to highlights and icons */
 .admonition {
-  border-left-color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
+  border-left-color: #F97316; /* Soft orange accent */
 }
 
 .admonition-icon {
-  color: var(--ifm-color-secondary-light); /* Black accent for light backgrounds */
-}
-
-/* For dark mode, use white accent */
-[data-theme='dark'] .admonition {
-  border-left-color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds in dark mode */
-}
-
-[data-theme='dark'] .admonition-icon {
-  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds in dark mode */
-}
-
-/* Dark mode navigation accents */
-[data-theme='dark'] .sidebar .menu__list .menu__link:hover {
-  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
-}
-
-[data-theme='dark'] .navbar__item:hover {
-  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
-}
-
-[data-theme='dark'] .table-of-contents__link:hover {
-  color: var(--ifm-color-secondary-dark); /* White accent for dark backgrounds */
+  color: #F97316; /* Soft orange accent */
 }
 
 /* Ensure accessible contrast for all text elements */
@@ -105,12 +82,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #334155; /* Ensure good contrast against light backgrounds */
 }
 
-.table-of-contents__link {
-  color: #334155; /* Ensure good contrast */
-}
-
+.table-of-contents__link,
 .table-of-contents__link:hover {
-  color: var(--ifm-color-secondary-light); /* Black accent on hover */
+  color: #334155; /* Ensure good contrast */
 }
 
 /* Set appropriate spacing between sections */
@@ -136,11 +110,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0.5rem;
 }
 
-.navbar__item:hover {
-  color: var(--ifm-color-secondary-light); /* Black accent on hover */
-}
-
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #38BDF8;
@@ -150,8 +119,6 @@ h1, h2, h3, h4, h5, h6 {
   --ifm-color-primary-light: #7DD3FC;
   --ifm-color-primary-lighter: #BAE6FD;
   --ifm-color-primary-lightest: #dbeafe;
-  --ifm-color-secondary-light: #000000;   /* Black accent for light backgrounds */
-  --ifm-color-secondary-dark: #FFFFFF;    /* White accent for dark backgrounds */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   /* Dark mode specific adjustments */
