@@ -60,6 +60,15 @@
   font-weight: 600;
 }
 
+.stats {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-right: auto;
+  margin-left: 10px;
+}
+
 .closeButton {
   background: none;
   border: none;
