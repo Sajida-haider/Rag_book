@@ -16,7 +16,7 @@ const config: Config = {
   trailingSlash: false,
 
   // ✅ YOUR DEPLOYED VERCEL URL
-  url: 'https://my-book-efxlpl0go-sajida-haiders-projects.vercel.app',
+  url: 'https://rag-book.vercel.app',
   baseUrl: '/',
 
   organizationName: 'Sajida-haider',
