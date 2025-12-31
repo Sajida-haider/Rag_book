@@ -1,0 +1,15 @@
+https://rag-book-ten.vercel.app/docs
+https://rag-book-ten.vercel.app/docs/guides/docusaurus-global-components
+https://rag-book-ten.vercel.app/docs/guides/floating-widget-implementation
+https://rag-book-ten.vercel.app/docs/module-1/chapter-1-ros2-fundamentals
+https://rag-book-ten.vercel.app/docs/module-1/chapter-2-python-agents-ros2
+https://rag-book-ten.vercel.app/docs/module-1/chapter-3-urdf-humanoid-models
+https://rag-book-ten.vercel.app/docs/module-2/chapter-1-physics-simulation-gazebo
+https://rag-book-ten.vercel.app/docs/module-2/chapter-2-high-fidelity-unity
+https://rag-book-ten.vercel.app/docs/module-2/chapter-3-sensor-simulation
+https://rag-book-ten.vercel.app/docs/module-3/chapter-1-nvidia-isaac-sim
+https://rag-book-ten.vercel.app/docs/module-3/chapter-2-isaac-ros-perception
+https://rag-book-ten.vercel.app/docs/module-3/chapter-3-nav2-navigation
+https://rag-book-ten.vercel.app/docs/module-4/chapter-1-voice-to-action
+https://rag-book-ten.vercel.app/docs/module-4/chapter-2-cognitive-planning-with-llms
+https://rag-book-ten.vercel.app/docs/module-4/chapter-3-capstone-autonomous-humanoid

@@ -1,0 +1,17 @@
+{
+  "https://rag-book-ten.vercel.app/docs": "cb201e9c88c3816415d576725f697c28",
+  "https://rag-book-ten.vercel.app/docs/guides/docusaurus-global-components": "004972a39b493e4548bc725032000878",
+  "https://rag-book-ten.vercel.app/docs/guides/floating-widget-implementation": "94b4d16cbc84b5aa47676af207b44324",
+  "https://rag-book-ten.vercel.app/docs/module-1/chapter-1-ros2-fundamentals": "33e567f8c900b5deac7457e2b228076d",
+  "https://rag-book-ten.vercel.app/docs/module-1/chapter-2-python-agents-ros2": "436598b7c99d944b770aaa04cf769d7e",
+  "https://rag-book-ten.vercel.app/docs/module-1/chapter-3-urdf-humanoid-models": "fa8ddec9ac845ef9e1882457490ab101",
+  "https://rag-book-ten.vercel.app/docs/module-2/chapter-1-physics-simulation-gazebo": "1a4613fe8001268404dedb1c7df6ec63",
+  "https://rag-book-ten.vercel.app/docs/module-2/chapter-2-high-fidelity-unity": "8bd3d55c2d574e81a7692f2f6168d321",
+  "https://rag-book-ten.vercel.app/docs/module-2/chapter-3-sensor-simulation": "dc5e36153b1de0ce1160547aa97e82fe",
+  "https://rag-book-ten.vercel.app/docs/module-3/chapter-1-nvidia-isaac-sim": "ae24530dd7e92daaaeca7953fef29647",
+  "https://rag-book-ten.vercel.app/docs/module-3/chapter-2-isaac-ros-perception": "0d39a09ab106bbf5f5685e67dbb6861e",
+  "https://rag-book-ten.vercel.app/docs/module-4/chapter-1-voice-to-action": "0bf515715ec2762f83bdef6b7faf4c49",
+  "https://rag-book-ten.vercel.app/docs/module-4/chapter-2-cognitive-planning-with-llms": "beba2b41518ac361d542aa899b4006e4",
+  "https://rag-book-ten.vercel.app/docs/module-4/chapter-3-capstone-autonomous-humanoid": "e3dbdb8bcba4b7b3917eb45f1531d606",
+  "https://rag-book-ten.vercel.app/docs/tutorial-extras/manage-docs-versions": "e50379d032788a8d540f44432f4b2e1b"
+}

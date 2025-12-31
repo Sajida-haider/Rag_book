@@ -1,0 +1,7 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+cohere>=5.5.7
+qdrant-client>=1.8.0
+python-dotenv>=1.0.0
+playwright>=1.40.0
+flask>=2.3.0

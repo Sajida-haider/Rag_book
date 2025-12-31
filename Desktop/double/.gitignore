@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+book/node_modules/
+
+# Build outputs
+build/
+book/my-book/build/
+
+# Docusaurus generated files
+.docusaurus/
+book/my-book/.docusaurus/
+
+# Cache files
+.cache-loader/
+book/my-book/.cache-loader/
+
+# CLAUDE-related directories (these should not be in the main repo)
+book/.claude/
+book/.specify/
+book/history/
+book/specs/
+
+# Development files
+.nyc_output/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore the entire book directory except my-book
+book/*
+!book/my-book/
+
+# Inside my-book, ignore node_modules and build but keep everything else
+book/my-book/node_modules/
+book/my-book/build/
+book/my-book/.docusaurus/
+book/my-book/.cache-loader/

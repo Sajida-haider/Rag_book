@@ -1,0 +1,26 @@
+# Documentation API Contract
+
+**Feature**: Module 1 - The Robotic Nervous System (ROS 2)
+**Date**: 2025-12-16
+
+This project is a static documentation site built with Docusaurus. There are no dynamic APIs to contract, but the following represents the interface between the content system and the future RAG chatbot:
+
+## Content API Interface
+
+### GET /api/content/search
+- **Purpose**: Search across all documentation content
+- **Parameters**:
+  - query: string (search term)
+  - limit: number (default 10, max 50)
+- **Response**: Array of content fragments with metadata
+
+### GET /api/content/{module}/{chapter}
+- **Purpose**: Retrieve specific chapter content
+- **Parameters**:
+  - module: string (module identifier)
+  - chapter: string (chapter identifier)
+- **Response**: Complete chapter content with structure metadata
+
+### GET /api/content/structure
+- **Purpose**: Retrieve content hierarchy and navigation
+- **Response**: Tree structure of modules, chapters, and sections
