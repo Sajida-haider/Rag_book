@@ -29,7 +29,7 @@ export default {
     "experimental_router": "browser"
   },
   "trailingSlash": false,
-  "url": "https://rag-book-ten.vercel.app",
+  "url": "https://mybook-murex.vercel.app",
   "baseUrl": "/",
   "organizationName": "Sajida-haider",
   "projectName": "Rag_book",
@@ -154,7 +154,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. Built with Docusaurus."
+      "copyright": "Copyright © 2026 Physical AI & Humanoid Robotics. Built with Docusaurus."
     },
     "prism": {
       "theme": {

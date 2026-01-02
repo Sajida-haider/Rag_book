@@ -1,11 +1,12 @@
-# Book Embeddings RAG System
+# Book Embeddings RAG System with Chatbot Backend
 
-This system fetches content from deployed Docusaurus book websites, processes it, generates vector embeddings using Cohere models, and stores the embeddings with metadata in Qdrant Cloud.
+This system fetches content from deployed Docusaurus book websites, processes it, generates vector embeddings using Cohere models, and stores the embeddings with metadata in Qdrant Cloud. It also includes a RAG chatbot backend that allows users to ask questions about the book content and receive AI-generated responses.
 
 ## Architecture
 
 The system consists of several services:
 
+### Content Ingestion Services:
 - `web_scraper.py`: Fetches HTML content from web pages
 - `content_extractor.py`: Extracts relevant content from HTML
 - `content_cleaner.py`: Cleans and preprocesses extracted content
@@ -18,6 +19,12 @@ The system consists of several services:
 - `models.py`: Data models for the system
 - `main.py`: Main ingestion pipeline orchestrator
 
+### RAG Chatbot Backend Services:
+- `src/api/main.py`: FastAPI application with chat endpoints
+- `src/services/rag_service.py`: Core RAG logic for processing queries
+- `src/services/vector_storage.py`: Qdrant integration for content retrieval
+- `src/services/session_service.py`: Session management for conversations
+
 ## Setup
 
 1. Install Python 3.11+
@@ -26,6 +33,38 @@ The system consists of several services:
 4. Activate virtual environment: `source .venv/bin/activate` (Linux/Mac) or `.venv\Scripts\activate` (Windows)
 5. Install dependencies: `uv pip install -r requirements.txt`
 6. Set up environment variables in `.env` file
+
+## RAG Chatbot Backend Setup
+
+The RAG chatbot backend provides API endpoints for the Docusaurus book's chat interface.
+
+### Backend Requirements:
+- Python 3.11+
+- FastAPI
+- uvicorn
+- OpenAI API key
+- Qdrant vector database access
+
+### Environment Variables for Chatbot Backend:
+```
+QDRANT_URL=your_qdrant_url
+QDRANT_API_KEY=your_qdrant_api_key
+OPENAI_API_KEY=your_openai_api_key
+QDRANT_COLLECTION_NAME=book_embeddings
+BACKEND_HOST=0.0.0.0
+BACKEND_PORT=8000
+```
+
+### Running the Backend:
+```bash
+cd backend
+python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+```
+
+### API Endpoints:
+- `POST /chat`: Process user message and return AI-generated response
+- `POST /chat/stream`: Streamed version of the chat endpoint
+- `GET /health`: Health check endpoint
 
 ## Environment Variables
 
