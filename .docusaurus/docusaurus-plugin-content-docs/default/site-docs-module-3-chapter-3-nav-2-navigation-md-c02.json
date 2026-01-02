@@ -1,0 +1,27 @@
+{
+  "id": "module-3/chapter-3-nav2-navigation",
+  "title": "Chapter 3: Navigation with Nav2",
+  "description": "Introduction to Navigation2 (Nav2)",
+  "source": "@site/docs/module-3/chapter-3-nav2-navigation.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/chapter-3-nav2-navigation",
+  "permalink": "/docs/module-3/chapter-3-nav2-navigation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-3/chapter-3-nav2-navigation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Isaac ROS - Hardware-Accelerated Perception",
+    "permalink": "/docs/module-3/chapter-2-isaac-ros-perception"
+  },
+  "next": {
+    "title": "Chapter 1: Voice-to-Action",
+    "permalink": "/docs/module-4/chapter-1-voice-to-action"
+  }
+}

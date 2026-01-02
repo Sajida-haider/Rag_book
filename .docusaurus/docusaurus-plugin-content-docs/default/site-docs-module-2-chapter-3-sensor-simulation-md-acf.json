@@ -1,0 +1,27 @@
+{
+  "id": "module-2/chapter-3-sensor-simulation",
+  "title": "Chapter 3: Sensor Simulation",
+  "description": "Introduction to Sensor Simulation in Digital Twins",
+  "source": "@site/docs/module-2/chapter-3-sensor-simulation.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/chapter-3-sensor-simulation",
+  "permalink": "/docs/module-2/chapter-3-sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-2/chapter-3-sensor-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: High-Fidelity Interaction with Unity",
+    "permalink": "/docs/module-2/chapter-2-high-fidelity-unity"
+  },
+  "next": {
+    "title": "Chapter 1: NVIDIA Isaac Sim",
+    "permalink": "/docs/module-3/chapter-1-nvidia-isaac-sim"
+  }
+}

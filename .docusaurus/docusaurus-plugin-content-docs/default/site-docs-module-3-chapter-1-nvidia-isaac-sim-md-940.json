@@ -1,0 +1,27 @@
+{
+  "id": "module-3/chapter-1-nvidia-isaac-sim",
+  "title": "Chapter 1: NVIDIA Isaac Sim",
+  "description": "Introduction to NVIDIA Isaac Sim",
+  "source": "@site/docs/module-3/chapter-1-nvidia-isaac-sim.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/chapter-1-nvidia-isaac-sim",
+  "permalink": "/docs/module-3/chapter-1-nvidia-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-3/chapter-1-nvidia-isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Sensor Simulation",
+    "permalink": "/docs/module-2/chapter-3-sensor-simulation"
+  },
+  "next": {
+    "title": "Chapter 2: Isaac ROS - Hardware-Accelerated Perception",
+    "permalink": "/docs/module-3/chapter-2-isaac-ros-perception"
+  }
+}

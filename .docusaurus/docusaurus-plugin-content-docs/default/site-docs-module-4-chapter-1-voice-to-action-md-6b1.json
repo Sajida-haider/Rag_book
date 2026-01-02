@@ -1,0 +1,24 @@
+{
+  "id": "module-4/chapter-1-voice-to-action",
+  "title": "Chapter 1: Voice-to-Action",
+  "description": "Overview",
+  "source": "@site/docs/module-4/chapter-1-voice-to-action.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/chapter-1-voice-to-action",
+  "permalink": "/docs/module-4/chapter-1-voice-to-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-4/chapter-1-voice-to-action.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Navigation with Nav2",
+    "permalink": "/docs/module-3/chapter-3-nav2-navigation"
+  },
+  "next": {
+    "title": "Chapter 2: Cognitive Planning with LLMs",
+    "permalink": "/docs/module-4/chapter-2-cognitive-planning-with-llms"
+  }
+}

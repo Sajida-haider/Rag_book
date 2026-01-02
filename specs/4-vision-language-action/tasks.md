@@ -43,7 +43,7 @@ This document outlines the specific implementation tasks for Module 4: Vision-La
 - [ ] Satisfies User Story 1 acceptance scenarios
 
 **Implementation Steps**:
-1. Create the markdown file `my-book/docs/module-4/chapter-1-voice-to-action.md`
+1. Create the markdown file `book/docs/module-4/chapter-1-voice-to-action.md`
 2. Write introduction to voice processing in robotics
 3. Explain OpenAI Whisper's role and capabilities
 4. Describe the voice-to-action pipeline
@@ -80,7 +80,7 @@ This document outlines the specific implementation tasks for Module 4: Vision-La
 - [ ] Satisfies User Story 2 acceptance scenarios
 
 **Implementation Steps**:
-1. Create the markdown file `my-book/docs/module-4/chapter-2-cognitive-planning-with-llms.md`
+1. Create the markdown file `book/docs/module-4/chapter-2-cognitive-planning-with-llms.md`
 2. Write introduction to cognitive planning in robotics
 3. Explain LLM role in cognitive planning
 4. Describe natural language to ROS 2 action translation
@@ -119,7 +119,7 @@ This document outlines the specific implementation tasks for Module 4: Vision-La
 - [ ] Satisfies User Story 3 acceptance scenarios
 
 **Implementation Steps**:
-1. Create the markdown file `my-book/docs/module-4/chapter-3-capstone-autonomous-humanoid.md`
+1. Create the markdown file `book/docs/module-4/chapter-3-capstone-autonomous-humanoid.md`
 2. Write introduction to system integration concepts
 3. Explain combining perception, planning, and navigation
 4. Describe full robot task execution in simulation
@@ -156,7 +156,7 @@ This document outlines the specific implementation tasks for Module 4: Vision-La
 - [ ] Navigation works correctly in Docusaurus site
 
 **Implementation Steps**:
-1. Open `my-book/sidebars.ts`
+1. Open `book/sidebars.ts`
 2. Add Module 4 category with appropriate label
 3. Include the three chapter files in the items array
 4. Ensure formatting matches other modules

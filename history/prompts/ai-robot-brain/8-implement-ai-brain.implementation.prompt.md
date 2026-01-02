@@ -18,10 +18,10 @@ links:
   adr: null
   pr: null
 files:
- - my-book/docs/module-3/chapter-1-nvidia-isaac-sim.md
- - my-book/docs/module-3/chapter-2-isaac-ros-perception.md
- - my-book/docs/module-3/chapter-3-nav2-navigation.md
- - my-book/sidebars.ts
+ - book/docs/module-3/chapter-1-nvidia-isaac-sim.md
+ - book/docs/module-3/chapter-2-isaac-ros-perception.md
+ - book/docs/module-3/chapter-3-nav2-navigation.md
+ - book/sidebars.ts
  - specs/3-ai-robot-brain/spec.md
  - specs/3-ai-robot-brain/plan.md
  - specs/3-ai-robot-brain/tasks.md

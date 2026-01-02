@@ -49,7 +49,7 @@ specs/3-ai-robot-brain/
 ### Source Code (repository root)
 
 ```text
-my-book/
+book/
 ├── docs/
 │   ├── intro.md
 │   ├── module-1/

@@ -49,7 +49,7 @@ specs/2-digital-twin-simulation/
 ### Source Code (repository root)
 
 ```text
-my-book/
+book/
 ├── docs/
 │   ├── intro.md
 │   ├── module-1/

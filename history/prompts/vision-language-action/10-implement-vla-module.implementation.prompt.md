@@ -18,10 +18,10 @@ links:
   adr: null
   pr: null
 files:
- - my-book/docs/module-4/chapter-1-voice-to-action.md
- - my-book/docs/module-4/chapter-2-cognitive-planning-with-llms.md
- - my-book/docs/module-4/chapter-3-capstone-autonomous-humanoid.md
- - my-book/sidebars.ts
+ - book/docs/module-4/chapter-1-voice-to-action.md
+ - book/docs/module-4/chapter-2-cognitive-planning-with-llms.md
+ - book/docs/module-4/chapter-3-capstone-autonomous-humanoid.md
+ - book/sidebars.ts
  - specs/4-vision-language-action/plan.md
  - specs/4-vision-language-action/research.md
  - specs/4-vision-language-action/data-model.md

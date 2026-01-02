@@ -1,0 +1,27 @@
+{
+  "id": "module-2/chapter-2-high-fidelity-unity",
+  "title": "Chapter 2: High-Fidelity Interaction with Unity",
+  "description": "Unity as a Visualization Layer for Robotics",
+  "source": "@site/docs/module-2/chapter-2-high-fidelity-unity.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/chapter-2-high-fidelity-unity",
+  "permalink": "/docs/module-2/chapter-2-high-fidelity-unity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-2/chapter-2-high-fidelity-unity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Physics Simulation with Gazebo",
+    "permalink": "/docs/module-2/chapter-1-physics-simulation-gazebo"
+  },
+  "next": {
+    "title": "Chapter 3: Sensor Simulation",
+    "permalink": "/docs/module-2/chapter-3-sensor-simulation"
+  }
+}

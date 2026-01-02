@@ -49,7 +49,7 @@ specs/1-ros2-nervous-system/
 ### Source Code (repository root)
 
 ```text
-my-book/
+book/
 ├── docs/
 │   ├── module-1/
 │   │   ├── chapter-1-ros2-fundamentals.md

@@ -1,0 +1,27 @@
+{
+  "id": "module-3/chapter-2-isaac-ros-perception",
+  "title": "Chapter 2: Isaac ROS - Hardware-Accelerated Perception",
+  "description": "Introduction to Isaac ROS",
+  "source": "@site/docs/module-3/chapter-2-isaac-ros-perception.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/chapter-2-isaac-ros-perception",
+  "permalink": "/docs/module-3/chapter-2-isaac-ros-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-3/chapter-2-isaac-ros-perception.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: NVIDIA Isaac Sim",
+    "permalink": "/docs/module-3/chapter-1-nvidia-isaac-sim"
+  },
+  "next": {
+    "title": "Chapter 3: Navigation with Nav2",
+    "permalink": "/docs/module-3/chapter-3-nav2-navigation"
+  }
+}

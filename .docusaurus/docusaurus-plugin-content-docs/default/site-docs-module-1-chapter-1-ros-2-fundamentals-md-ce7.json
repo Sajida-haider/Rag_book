@@ -1,0 +1,27 @@
+{
+  "id": "module-1/chapter-1-ros2-fundamentals",
+  "title": "Chapter 1: ROS 2 Fundamentals",
+  "description": "Introduction to ROS 2",
+  "source": "@site/docs/module-1/chapter-1-ros2-fundamentals.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/chapter-1-ros2-fundamentals",
+  "permalink": "/docs/module-1/chapter-1-ros2-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-1/chapter-1-ros2-fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Read Book: Physical AI & Humanoid Robotics",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Chapter 2: Python Agents with ROS 2 (rclpy)",
+    "permalink": "/docs/module-1/chapter-2-python-agents-ros2"
+  }
+}

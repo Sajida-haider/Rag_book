@@ -1,0 +1,27 @@
+{
+  "id": "module-1/chapter-2-python-agents-ros2",
+  "title": "Chapter 2: Python Agents with ROS 2 (rclpy)",
+  "description": "Introduction to rclpy",
+  "source": "@site/docs/module-1/chapter-2-python-agents-ros2.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/chapter-2-python-agents-ros2",
+  "permalink": "/docs/module-1/chapter-2-python-agents-ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-1/chapter-2-python-agents-ros2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: ROS 2 Fundamentals",
+    "permalink": "/docs/module-1/chapter-1-ros2-fundamentals"
+  },
+  "next": {
+    "title": "Chapter 3: Humanoid Robot Description with URDF",
+    "permalink": "/docs/module-1/chapter-3-urdf-humanoid-models"
+  }
+}

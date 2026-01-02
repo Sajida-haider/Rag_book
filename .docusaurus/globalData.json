@@ -1,0 +1,139 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "book_content",
+              "path": "/docs/book_content"
+            },
+            {
+              "id": "guides/docusaurus-global-components",
+              "path": "/docs/guides/docusaurus-global-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/floating-widget-implementation",
+              "path": "/docs/guides/floating-widget-implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-1-ros2-fundamentals",
+              "path": "/docs/module-1/chapter-1-ros2-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-2-python-agents-ros2",
+              "path": "/docs/module-1/chapter-2-python-agents-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-3-urdf-humanoid-models",
+              "path": "/docs/module-1/chapter-3-urdf-humanoid-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-1-physics-simulation-gazebo",
+              "path": "/docs/module-2/chapter-1-physics-simulation-gazebo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-2-high-fidelity-unity",
+              "path": "/docs/module-2/chapter-2-high-fidelity-unity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-3-sensor-simulation",
+              "path": "/docs/module-2/chapter-3-sensor-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-1-nvidia-isaac-sim",
+              "path": "/docs/module-3/chapter-1-nvidia-isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-2-isaac-ros-perception",
+              "path": "/docs/module-3/chapter-2-isaac-ros-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-3-nav2-navigation",
+              "path": "/docs/module-3/chapter-3-nav2-navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-1-voice-to-action",
+              "path": "/docs/module-4/chapter-1-voice-to-action",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-2-cognitive-planning-with-llms",
+              "path": "/docs/module-4/chapter-2-cognitive-planning-with-llms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-3-capstone-autonomous-humanoid",
+              "path": "/docs/module-4/chapter-3-capstone-autonomous-humanoid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

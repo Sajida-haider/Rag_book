@@ -49,7 +49,7 @@ specs/4-vision-language-action/
 ### Source Code (repository root)
 
 ```text
-my-book/
+book/
 ├── docs/
 │   ├── intro.md
 │   ├── module-1/

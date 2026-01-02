@@ -1,0 +1,24 @@
+{
+  "id": "guides/docusaurus-global-components",
+  "title": "Docusaurus Global UI Component Implementation Guide",
+  "description": "This document outlines the patterns and approaches used for implementing global UI components in the Docusaurus site, specifically for the floating chatbot widget.",
+  "source": "@site/docs/guides/docusaurus-global-components.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/docusaurus-global-components",
+  "permalink": "/docs/guides/docusaurus-global-components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/guides/docusaurus-global-components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Capstone Autonomous Humanoid Project",
+    "permalink": "/docs/module-4/chapter-3-capstone-autonomous-humanoid"
+  },
+  "next": {
+    "title": "Floating Widget",
+    "permalink": "/docs/guides/floating-widget-implementation"
+  }
+}

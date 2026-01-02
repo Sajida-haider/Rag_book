@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Read Book: Physical AI & Humanoid Robotics",
+  "description": "Welcome to the comprehensive guide on Physical AI & Humanoid Robotics. This book covers the intersection of artificial intelligence and robotics, focusing on how AI systems can function in the physical world.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "/",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: ROS 2 Fundamentals",
+    "permalink": "/docs/module-1/chapter-1-ros2-fundamentals"
+  }
+}

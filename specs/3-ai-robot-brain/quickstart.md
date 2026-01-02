@@ -17,7 +17,7 @@
 
 ```bash
 # Navigate to the Docusaurus docs directory
-cd my-book/docs
+cd book/docs
 
 # Create module directory
 mkdir -p module-3

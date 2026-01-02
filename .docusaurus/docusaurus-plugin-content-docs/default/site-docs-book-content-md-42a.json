@@ -1,0 +1,15 @@
+{
+  "id": "book_content",
+  "title": "Physical AI & Humanoid Robotics",
+  "description": "Module 1: ROS 2 Fundamentals",
+  "source": "@site/docs/book_content.md",
+  "sourceDirName": ".",
+  "slug": "/book_content",
+  "permalink": "/docs/book_content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/book_content.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

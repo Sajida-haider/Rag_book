@@ -1,0 +1,27 @@
+{
+  "id": "module-1/chapter-3-urdf-humanoid-models",
+  "title": "Chapter 3: Humanoid Robot Description with URDF",
+  "description": "Introduction to URDF",
+  "source": "@site/docs/module-1/chapter-3-urdf-humanoid-models.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/chapter-3-urdf-humanoid-models",
+  "permalink": "/docs/module-1/chapter-3-urdf-humanoid-models",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-1/chapter-3-urdf-humanoid-models.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Python Agents with ROS 2 (rclpy)",
+    "permalink": "/docs/module-1/chapter-2-python-agents-ros2"
+  },
+  "next": {
+    "title": "Chapter 1: Physics Simulation with Gazebo",
+    "permalink": "/docs/module-2/chapter-1-physics-simulation-gazebo"
+  }
+}

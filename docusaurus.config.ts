@@ -16,7 +16,7 @@ const config: Config = {
   trailingSlash: false,
 
   // ✅ YOUR DEPLOYED VERCEL URL
-  url: 'https://rag-book.vercel.app',
+  url: 'https://mybook-murex.vercel.app',
   baseUrl: '/',
 
   organizationName: 'Sajida-haider',

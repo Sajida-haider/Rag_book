@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://vercel.com/sajida-haiders-projects/rag-book',
+  url: 'https://mybook-murex.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -88,7 +88,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/your-username/my-book',
+          href: 'https://github.com/your-username/',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/my-book',
+              href: 'https://github.com/your-username/',
             },
           ],
         },

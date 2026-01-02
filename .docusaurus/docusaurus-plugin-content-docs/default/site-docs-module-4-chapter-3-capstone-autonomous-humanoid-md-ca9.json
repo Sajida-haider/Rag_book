@@ -1,0 +1,24 @@
+{
+  "id": "module-4/chapter-3-capstone-autonomous-humanoid",
+  "title": "Chapter 3: Capstone Autonomous Humanoid Project",
+  "description": "Overview",
+  "source": "@site/docs/module-4/chapter-3-capstone-autonomous-humanoid.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/chapter-3-capstone-autonomous-humanoid",
+  "permalink": "/docs/module-4/chapter-3-capstone-autonomous-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/module-4/chapter-3-capstone-autonomous-humanoid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Cognitive Planning with LLMs",
+    "permalink": "/docs/module-4/chapter-2-cognitive-planning-with-llms"
+  },
+  "next": {
+    "title": "Docusaurus Global UI Component Implementation Guide",
+    "permalink": "/docs/guides/docusaurus-global-components"
+  }
+}

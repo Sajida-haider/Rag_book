@@ -18,10 +18,10 @@ links:
   adr: null
   pr: null
 files:
- - my-book/docs/module-2/chapter-1-physics-simulation-gazebo.md
- - my-book/docs/module-2/chapter-2-high-fidelity-unity.md
- - my-book/docs/module-2/chapter-3-sensor-simulation.md
- - my-book/sidebars.ts
+ - book/docs/module-2/chapter-1-physics-simulation-gazebo.md
+ - book/docs/module-2/chapter-2-high-fidelity-unity.md
+ - book/docs/module-2/chapter-3-sensor-simulation.md
+ - book/sidebars.ts
  - specs/2-digital-twin-simulation/spec.md
  - specs/2-digital-twin-simulation/plan.md
  - specs/2-digital-twin-simulation/tasks.md

@@ -1,0 +1,23 @@
+{
+  "id": "guides/floating-widget-implementation",
+  "title": "Floating Chatbot Widget Implementation",
+  "description": "This page details the implementation of the floating chatbot widget that appears on all pages of the documentation site.",
+  "source": "@site/docs/guides/floating-widget-implementation.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/floating-widget-implementation",
+  "permalink": "/docs/guides/floating-widget-implementation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Sajida-haider/Rag_book/docs/guides/floating-widget-implementation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Floating Chatbot Widget Implementation",
+    "sidebar_label": "Floating Widget"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus Global UI Component Implementation Guide",
+    "permalink": "/docs/guides/docusaurus-global-components"
+  }
+}

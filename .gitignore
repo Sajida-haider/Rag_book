@@ -1,18 +1,37 @@
 # Dependencies
 node_modules/
 book/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+.ENV
+.pytest_cache/
+.coverage
+htmlcov/
+.pyre/
 
 # Build outputs
 build/
-book/my-book/build/
+book//build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+*.so
+*.dylib
 
-# Docusaurus generated files
-.docusaurus/
-book/my-book/.docusaurus/
-
-# Cache files
-.cache-loader/
-book/my-book/.cache-loader/
+# Python virtual environment specific
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.pytest_cache/
 
 # CLAUDE-related directories (these should not be in the main repo)
 book/.claude/
@@ -42,12 +61,12 @@ Thumbs.db
 *.swp
 *.swo
 
-# Ignore the entire book directory except my-book
+# Ignore the entire book directory except 
 book/*
-!book/my-book/
+!book//
 
-# Inside my-book, ignore node_modules and build but keep everything else
-book/my-book/node_modules/
-book/my-book/build/
-book/my-book/.docusaurus/
-book/my-book/.cache-loader/
+# Inside , ignore node_modules and build but keep everything else
+book//node_modules/
+book//build/
+book//.docusaurus/
+book//.cache-loader/
